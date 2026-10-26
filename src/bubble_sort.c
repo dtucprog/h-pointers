@@ -25,12 +25,12 @@ int main() {
   print_arr(TEST_ARR, countof(TEST_ARR));
   puts("");
 
-  puts("Ascending");
+  puts("Ascending:");
   bubble_sort(TEST_ARR, countof(TEST_ARR), is_in_ascending_order);
   print_arr(TEST_ARR, countof(TEST_ARR));
   puts("");
 
-  puts("Descending");
+  puts("Descending:");
   bubble_sort(TEST_ARR, countof(TEST_ARR), is_in_descending_order);
   print_arr(TEST_ARR, countof(TEST_ARR));
 }
